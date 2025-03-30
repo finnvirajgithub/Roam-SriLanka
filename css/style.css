@@ -9578,10 +9578,25 @@ textarea.form-control {
   background-color: #e09620;
 }
 
+.pricedetails {
+  color: white;  
+  background: rgb(0, 63, 0); 
+  width: 40%; 
+  position: absolute; 
+  left: 50%; 
+  transform: translate(-50%); 
+  padding: 2rem; 
+  border-radius: 20px;
+}
+
 @media (max-width: 768px) {
   .form-row .form-group {
       flex: 1 0 100%;
       max-width: 100%;
+  }
+
+  .pricedetails {
+    width: 90%;
   }
 }
 
@@ -9621,3 +9636,4 @@ textarea.form-control {
 .dropdown-submenu:hover .dropdown-menu {
   display: block;
 }
+
